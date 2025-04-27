@@ -45,7 +45,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-screen w-64 ${darkMode ? 'bg-black text-white' : 'bg-rose-50 text-black'} z-50 flex flex-col gap-6 px-8 py-20 shadow-lg transition-transform duration-500 ${menuOpen ? 'translate-x-0' : 'translate-x-full'
+        className={`fixed top-0 right-0 h-screen w-70 ${darkMode ? 'bg-black text-white' : 'bg-rose-50 text-black'} z-50 flex flex-col gap-6 px-8 py-20 shadow-lg transition-transform duration-500 ${menuOpen ? 'translate-x-0' : 'translate-x-full'
           } md:hidden`}
       >
         <div className='absolute top-6 right-6 cursor-pointer' onClick={closeMenu}>

@@ -78,7 +78,7 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Digital Fod Menu ordering',
+        title: 'Digital Food Menu',
         description: 'Web site',
         bgImage: '/work-1.png',
     },

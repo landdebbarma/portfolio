@@ -15,7 +15,7 @@ const Header = () => {
       className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'
     >
       <motion.div className='mt-15' whileHover={{ scale: 1.05 }}>
-        <Image src={assets.IMG_6739} alt='profile' className='rounded-full w-[200px] h-[200px] object-cover' />
+        <Image src={assets.profile_img} alt='profile' className='rounded-full w-[200px] h-[200px] object-cover' />
       </motion.div>
 
       <motion.h3
